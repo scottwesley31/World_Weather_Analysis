@@ -1,16 +1,15 @@
 # World_Weather_Analysis
 Module 6
 ## Project Overview
-Following the creation of an app called "PlanMyTrip" for a hypothetical travel company which allows for users to receive hotel suggestions based on a minimum and maximum temperature range, additional suggestions were made by beta testers to improve it's function. The recommendations include adding a weather description to the information displayed about each suggested hotel, which would make it possible for users to filter hotel options based on weather preferences. The app will also have a travel itinerary function which will allow the user to create a travel route between 4 different cities.
+Following the creation of an app called "PlanMyTrip" for a hypothetical travel company which allows for users to receive hotel suggestions based on a minimum and maximum temperature range, additional suggestions were made by beta testers to improve it's function. The recommendations included adding a weather description to the information displayed about each suggested hotel, which would make it possible for users to filter hotel options based on weather preferences. The app will also have a travel itinerary function which will allow the user to create a travel route between 4 different cities.
 
 ## Results
-To succintly highly some of the PlanMyTrip app features, some photos were included.
+Here are some of the highlights of this project:
 
 ### Weather Data Retrieval
-A database CSV was created by requesting weather data from the openweathermap.org API with a large list of cit![WeatherPy_Database_screenshot](https://user-images.githubusercontent.com/107309793/180908828-0f6f3586-a82a-4442-a820-3e46af9a0af1.png)
-y names.
+A database CSV was created by requesting weather data from the openweathermap.org API with a large list of city names.
 
-![Uploading WeatherPy_Database_screenshot.png…]()
+![WeatherPy_Database_screenshot](https://user-images.githubusercontent.com/107309793/180910731-9bc1bd4b-9e21-4089-9b0b-36d06f021d7c.png)
 
 ### Customer Travel Destinations Map
 A travel destinations map was generated after user input of minimum temperature and maximum temperature. This was accomplished by utilizing the weather database to request hotel names from the Google Maps Nearby Search API (the closest hotel within 5000 meters for each city in the database. This was then printed on a map (via gmaps) which includes markers with city, county, weather, and max temperature information.
